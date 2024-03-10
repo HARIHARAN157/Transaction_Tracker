@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit</title>
+</head>
+<body>
+    <center>
+        <h1>Deposit</h1>
+    </center>
+    <h2>Hello Account Holder, Enter The Amount To be Deposited  <?php $email = $_SESSION['emails'];echo $email;?></h2>
+    <hr>
+    <center>
+    <form action="" method="POST">
+        <div>
+          <label>Enter The Amount</label>
+          <input type="number" name="Amount" required="">
+        </div>
+        <br>
+        <button type="submit" formaction="deposit.php">deposit</button>
+        <button type="button" onclick="location.href='postlogin.php';">Back</button>
+    </form>
+    </center>
+</body>
+</html>

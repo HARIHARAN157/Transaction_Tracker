@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+
+    .h1{
+        font-size: 40px;
+    }
+    .h2{
+        color:aqua;
+        text-decoration-line: none;
+    }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trans Tracker</title>
+    <link rel="icon" href="Image/L.jpeg">
+</head>
+<body>
+  <div class="index">
+    <h1>Trans Tracker</h1>
+    <p><b>Register Your Account</b></p>
+    <form action="register.php" onsubmit="checkPasswords();" method="POST">
+    <div class="input">
+    <i class="fa fa-user"></i>
+    <input type="text" name="uname1" placeholder="Enter Username" required="">
+  </div>
+	<div class="input">
+	<i class="fa fa-envelope"i></i> 
+  <input type="email" name="email" placeholder="Enter email id" required="">
+</div>
+	<div class="input">
+	<i class="fa fa-mobile"></i>
+	<input type="number" placeholder="Enter Mobile Number">
+	</div>
+    <div class="input">
+      <i class="fa fa-unlock-alt"></i>
+      <input type="password" id="password" name="upswd1" placeholder="Enter Password" required="">
+      <span class="eye" onclick="myFunction()">
+      <i id="hide1" class="fa fa-eye"></i>
+      <i id="hide2" class="fa fa-eye-slash"></i>
+      </span>
+    </div>
+	<div class="input">
+		<i class="fa fa-unlock-alt"></i>
+    <input type="password" id="confirm_password"  name="upswd2" placeholder="Re-Enter Password" required="">
+		<span class="eye1" onclick="MyFunction()">
+			<i id="Hide1" class="fa fa-eye"></i>
+			<i id="Hide2" class="fa fa-eye-slash"></i>
+		</span>
+    </div>
+    <div class="H">
+      <button type="submit" class="Button">Register</button>
+      </div>
+  </form>
+
+            <script>
+              function checkPasswords() {
+                  var password1 = document.getElementById("password").value;
+                  var password2 = document.getElementById("confirm_password").value;
+                  
+                  if (password1 === password2);
+                  else {
+                      alert("Passwords do not match.");
+                      event.preventDefault(); 
+                  }
+              }  
+          </script>
+<div class="text1">
+    <p class="Link"><a href="Welcome_Page.html" class="B1">Home</a></p> 
+    <p>If Already Have an Account</p>
+    <p><a href="login.html" class="B2">Sign In </a></p>
+    </div>
+  </div>
+</body>
+</html>

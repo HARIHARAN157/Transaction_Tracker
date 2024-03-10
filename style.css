@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#05423b),url(Image/Bank_Background_Image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.L{
+    width: 140px;
+    position: absolute;
+    top: 2%;
+    left: -2%;
+    
+}
+.text{
+    text-align: center;
+    padding-top: 180px;
+}
+.text h1{
+    font-style: italic;
+    font-family: 'kaushan script', cursive;
+}
+.text p :hover{
+    background-color: rgba(6, 242, 230, 0.371);
+}
+.L1{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+.B1{
+    text-decoration-line: none;
+    margin: 40px auto 20px;
+    width: 20%;
+    display: block;
+    outline: none;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    background: transparent;
+    color:aqua;
+    font-size: 16px;
+}
+.B2{
+    text-decoration-line: none;
+    margin: 40px auto 20px;
+    width: 20%;
+    display: block;
+    outline: none;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    background: transparent;
+    color:aqua;
+    font-size: 16px;
+}
+.index{
+    width: 480px;
+    position: static;
+    top: 4%;
+    left: 40%;
+    background: rgba(0, 0, 0, 0.489);
+    padding: 100px 0;
+    margin: 12px auto;
+    color: white;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.347);
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.input input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+::placeholder{
+    color: azure ;
+}
+.fa{
+    margin: 5px ;
+}
+.eye{
+    position: absolute;
+}
+#hide1{
+    display: none;
+}
+.eye1{
+    position: absolute;
+}
+#Hide1{
+    display: none;
+}
+.Button{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid white;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+.H button:hover{
+    background-color: rgba(6, 242, 230, 0.371);
+}
+.H P:hover{
+    background-color: rgba(6, 242, 230, 0.371);
+}
+.text1{
+    text-align: center;
+    padding-top: 1px;
+}
+.text1 p :hover{
+    background-color: rgba(6, 242, 230, 0.371);
+}
+.Link{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
